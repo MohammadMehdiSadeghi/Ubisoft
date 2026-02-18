@@ -28,6 +28,8 @@ body {
 .hide-box {
   opacity: 0 !important;
   visibility: hidden !important;
+  z-index: -1;
+  display: none !important;
 }
 
 .select-box {
