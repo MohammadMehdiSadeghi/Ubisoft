@@ -41,13 +41,21 @@ body {
 }
 
 .transform-for-modal-box {
-  transform: translateY(0) !important;
+  top: calc(0% + 60px) !important;
+}
+
+.iconDeg {
+  transform: rotate(180deg) !important;
 }
 
 header {
   width: 100%;
   height: fit-content;
   background-color: black;
+  position: absolute;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 2000;
 }
 header nav {
   display: flex;
@@ -64,6 +72,10 @@ header nav ul li {
   justify-content: center;
   padding: 15px 35px;
   height: 100%;
+  transition: all 220ms ease;
+}
+header nav ul li i {
+  transform: rotate(0);
   transition: all 220ms ease;
 }
 header nav ul li:hover {
@@ -132,6 +144,7 @@ header nav .icon-in-header .bxs-user {
 .open-modal-header-section {
   background-color: white;
   width: 95%;
+  top: -100%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
@@ -142,8 +155,7 @@ header nav .icon-in-header .bxs-user {
   flex-direction: column;
   padding: 25px;
   border-radius: 0 0 12px 12px;
-  transition: all 280ms ease;
-  transform: translateY(-1000px);
+  transition: all 380ms ease;
 }
 .open-modal-header-section .row-one-in-modal-section {
   display: flex;

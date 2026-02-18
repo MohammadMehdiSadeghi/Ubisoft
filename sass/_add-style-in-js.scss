@@ -13,7 +13,10 @@
   background-color: rgb(101, 101, 101) !important;
 }
 
-
 .transform-for-modal-box {
-  transform: translateY(0) !important;
+  top: calc(0% + 60px) !important;
+}
+
+.iconDeg {
+  transform: rotate(180deg) !important;
 }

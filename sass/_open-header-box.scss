@@ -1,6 +1,7 @@
 .open-modal-header-section {
   background-color: white;
   width: 95%;
+  top: -100%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
@@ -11,8 +12,7 @@
   flex-direction: column;
   padding: 25px;
   border-radius: 0 0 12px 12px;
-  transition: all 280ms ease;
-  transform: translateY(-1000px);
+  transition: all 380ms ease;
   .row-one-in-modal-section {
     display: flex;
     align-items: start;
