@@ -11,6 +11,8 @@
   flex-direction: column;
   padding: 25px;
   border-radius: 0 0 12px 12px;
+  transition: all 280ms ease;
+  transform: translateY(-1000px);
   .row-one-in-modal-section {
     display: flex;
     align-items: start;
