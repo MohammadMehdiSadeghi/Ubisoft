@@ -760,7 +760,7 @@ header nav .icon-in-header .bxs-user {
 }
 .socail-box .text-in-socail-box p {
   font-size: 18px;
-  color: rgb(104, 104, 104);
+  color: rgb(144, 144, 144);
 }
 .socail-box .icon-socail {
   width: 100%;
@@ -778,4 +778,116 @@ header nav .icon-in-header .bxs-user {
   background-color: white;
   padding: 5px;
   border-radius: 50%;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(29, 30, 34);
+  height: fit-content;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .row-one-in-footer {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+footer .row-one-in-footer .logo-in-row-one-footer a {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+footer .row-one-in-footer .logo-in-row-one-footer a img {
+  filter: invert(1);
+  width: 35px;
+  height: auto;
+}
+footer .row-one-in-footer button {
+  padding: 10px 25px;
+  background-color: transparent;
+  color: white;
+  background-color: rgb(64, 64, 64);
+  border-radius: 22px;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+footer .row-one-in-footer button:hover {
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+footer .row-one-in-footer select {
+  padding: 10px 25px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+footer .row-one-in-footer select option {
+  background-color: rgb(29, 30, 34);
+}
+footer .row-two-in-footer {
+  margin-top: 50px;
+  width: 65%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 5px;
+}
+footer .row-two-in-footer ul {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .row-two-in-footer ul li a:hover {
+  text-decoration: underline;
+}
+footer .row-two-in-footer ul:last-child {
+  align-items: end;
+}
+footer .row-two-in-footer ul:last-child p {
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "UbisoftFont-regular";
+}
+footer .row-three-in-footer {
+  margin-top: 10px;
+  width: 65%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 40px;
+}
+footer .row-three-in-footer ul {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .row-three-in-footer ul li a {
+  color: gray;
+  font-size: 16px;
+  font-family: "UbisoftFont-regular";
+}
+footer .row-three-in-footer ul li a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
