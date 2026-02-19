@@ -616,7 +616,7 @@ header nav .icon-in-header .bxs-user {
 }
 .second-game-slider {
   width: 100%;
-  margin: 250px auto 50px auto;
+  margin: 150px auto 50px auto;
   height: fit-content;
   padding: 20px;
   display: flex;
@@ -750,7 +750,7 @@ header nav .icon-in-header .bxs-user {
 
 @media (max-width: 1920px) {
   .second-game-slider {
-    margin-top: 280px !important;
+    margin: 350px auto;
     width: 100% !important;
   }
   .second-game-slider .title-in-second-game-slider-and-arrows {
