@@ -70,3 +70,12 @@
     }
   }
 }
+
+@media (max-width: 1920px) {
+  .game-information {
+    width: 85% !important;
+    .game-information-box {
+      gap: 15px;
+    }
+  }
+}
