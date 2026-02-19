@@ -81,7 +81,7 @@ const sliderGameRoot = document.querySelector(".first-games-slider-root");
               src="${item.image}"
               alt=""
             />
-            <h2 class="game-name">${item.title}</h2>
+            <h2 class="game-name">${item.title.split(" ").splice(0, 2).join(" ")}</h2>
             <p class="game-description">${item.description}</p>
             <div class="all-price">
               <p class="original-price">${item.originalPrice}</p>
@@ -142,7 +142,7 @@ const secondSliderGameRoot = document.querySelector(
                 src="${item.image}"
                 alt=""
               />
-              <h2 class="game-name">${item.title}</h2>
+              <h2 class="game-name">${item.title.split(" ").splice(0, 2).join(" ")}</h2>
               <p class="game-description">${item.description}</p>
               <div class="all-price">
                 <p class="original-price">${item.originalPrice}</p>
