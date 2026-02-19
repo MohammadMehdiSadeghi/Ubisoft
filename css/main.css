@@ -340,6 +340,9 @@ header nav .icon-in-header .bxs-user {
   .open-modal-header-section .row-one-in-modal-section .div-one-in-row-one-in-modal-header a {
     font-size: 14px !important;
   }
+  .div-three-in-row-one-in-modal-header {
+    top: -150% !important;
+  }
   .div-three-in-row-one-in-modal-header .game-card-in-modal-boxs {
     justify-content: start !important;
     flex-wrap: wrap;
