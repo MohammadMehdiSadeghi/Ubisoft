@@ -158,3 +158,32 @@ const secondSliderGameRoot = document.querySelector(
     console.log(error.message);
   }
 })();
+
+// transform game slider second
+
+const nextBtnSecondSlider = document.querySelector(
+  ".next-in-second-game-slider",
+);
+const prevBtnSecondSlider = document.querySelector(
+  ".prev-in-second-game-slider",
+);
+const gameSliderSecondSlider = document.querySelector(
+  ".second-games-slider-root",
+);
+const spansSliderSecondSlider = document.querySelectorAll(
+  ".spans-in-game-slider-second span",
+);
+
+nextBtnSecondSlider.addEventListener("click", () => {
+  gameSliderSecondSlider.classList.add("transform-game-slider-second");
+  spansSliderSecondSlider[0].classList.remove("back-color-span-for-slider");
+  spansSliderSecondSlider[1].classList.add("back-color-span-for-slider");
+  nextBtn.disabled = true;
+});
+
+prevBtnSecondSlider.addEventListener("click", () => {
+  gameSliderSecondSlider.classList.remove("transform-game-slider-second");
+  spansSliderSecondSlider[0].classList.add("back-color-span-for-slider");
+  spansSliderSecondSlider[1].classList.remove("back-color-span-for-slider");
+  prevBtn.disabled = true;
+});
