@@ -1075,6 +1075,11 @@ header nav .icon-in-header .bxs-user {
   width: 650px;
 }
 
+@media (max-width: 1920px) {
+  .ubisoft-connect {
+    width: 85%;
+  }
+}
 .socail-box {
   width: 100%;
   background-color: black;
