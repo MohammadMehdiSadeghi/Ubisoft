@@ -1080,7 +1080,7 @@ header nav .icon-in-header .bxs-user {
     width: 85%;
   }
 }
-.socail-box {
+.social-box {
   width: 100%;
   background-color: black;
   display: flex;
@@ -1089,15 +1089,14 @@ header nav .icon-in-header .bxs-user {
   padding: 25px;
   position: relative;
 }
-.socail-box .text-in-socail-box {
-  margin-left: 20%;
-  width: 100%;
+.social-box .text-in-social-box {
+  width: 65%;
 }
-.socail-box .text-in-socail-box p {
+.social-box .text-in-social-box p {
   font-size: 18px;
   color: rgb(144, 144, 144);
 }
-.socail-box .icon-socail {
+.social-box .icon-social {
   width: 100%;
   display: flex;
   align-items: center;
@@ -1107,7 +1106,7 @@ header nav .icon-in-header .bxs-user {
   transform: translateX(-50%);
   position: absolute;
 }
-.socail-box .icon-socail a i {
+.social-box .icon-social a i {
   font-size: 28px;
   color: black;
   background-color: white;
@@ -1115,6 +1114,11 @@ header nav .icon-in-header .bxs-user {
   border-radius: 50%;
 }
 
+@media (max-width: 1920px) {
+  .text-in-social-box {
+    width: 85% !important;
+  }
+}
 footer {
   width: 100%;
   background-color: rgb(29, 30, 34);
