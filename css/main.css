@@ -507,7 +507,6 @@ header nav .icon-in-header .bxs-user {
   align-items: start;
   justify-content: flex-start;
   gap: 25px;
-  width: fit-content;
   overflow-x: hidden;
   width: 100%;
   padding: 15px;
@@ -611,10 +610,13 @@ header nav .icon-in-header .bxs-user {
   .first-games-slider-root-section .first-games-slider-root .game-card .game-description {
     font-size: 15px !important;
   }
+  .first-games-slider-root-section .first-games-slider-root .game-card .all-price {
+    margin-left: 30% !important;
+  }
 }
 .second-game-slider {
   width: 100%;
-  margin: 150px auto 0 auto;
+  margin: 150px auto;
   height: fit-content;
   padding: 20px;
   display: flex;
@@ -622,7 +624,6 @@ header nav .icon-in-header .bxs-user {
   justify-content: center;
   gap: 20px;
   flex-direction: column;
-  margin-top: 150px;
   background-repeat: no-repeat;
 }
 .second-game-slider .title-in-second-game-slider-and-arrows {
@@ -663,7 +664,6 @@ header nav .icon-in-header .bxs-user {
   align-items: start;
   justify-content: flex-start;
   gap: 25px;
-  width: fit-content;
   overflow-x: hidden;
   width: 65%;
   padding: 15px;
@@ -748,6 +748,36 @@ header nav .icon-in-header .bxs-user {
   cursor: pointer;
 }
 
+@media (max-width: 1920px) {
+  .second-game-slider {
+    margin-top: 280px !important;
+    width: 100% !important;
+  }
+  .second-game-slider .title-in-second-game-slider-and-arrows {
+    width: 85%;
+  }
+  .second-game-slider .second-games-slider-root-section {
+    width: 86% !important;
+    padding: 0 !important;
+  }
+  .second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card {
+    width: 187px !important;
+  }
+  .second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card img {
+    width: 187px !important;
+    height: auto;
+    transition: all 280ms ease;
+  }
+  .second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .game-name {
+    font-size: 17px !important;
+  }
+  .second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .game-description {
+    font-size: 15px !important;
+  }
+  .second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .all-price {
+    margin-left: 30% !important;
+  }
+}
 .game-banner {
   display: flex;
   align-items: start;

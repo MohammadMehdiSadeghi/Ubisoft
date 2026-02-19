@@ -60,7 +60,6 @@
     align-items: start;
     justify-content: flex-start;
     gap: 25px;
-    width: fit-content;
     overflow-x: hidden;
     width: 100%;
     padding: 15px;
@@ -165,6 +164,9 @@
         }
         .game-description {
           font-size: 15px !important;
+        }
+        .all-price{
+          margin-left: 30% !important;
         }
       }
     }
