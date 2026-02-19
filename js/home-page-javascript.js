@@ -69,6 +69,12 @@ const sliderGameRoot = document.querySelector(".first-games-slider-root");
     const res = await fetch("/backend/top-slider-games-data.json");
     const data = await res.json();
     data.map((item) => {
+      if (item.discountPercent == null) {
+        item.discountPercent = "0%";
+      }
+      if (item.originalPrice == null) {
+        item.originalPrice = item.finalPrice;
+      }
       sliderGameRoot.innerHTML += `
         <div class="game-card">
             <img
@@ -78,7 +84,7 @@ const sliderGameRoot = document.querySelector(".first-games-slider-root");
             <h2 class="game-name">${item.title}</h2>
             <p class="game-description">${item.description}</p>
             <div class="all-price">
-              <p class="original-price">${item.price}</p>
+              <p class="original-price">${item.originalPrice}</p>
               <div class="discount-and-price">
                 <p class="discount">${item.discountPercent}</p>
                 <p class="price">${item.finalPrice}</p>
