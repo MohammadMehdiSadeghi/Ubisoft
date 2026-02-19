@@ -59,6 +59,7 @@
       align-items: start;
       justify-content: flex-start;
       gap: 25px;
+      transition: all 340ms ease;
       .second-game-card {
         flex-shrink: 0;
         width: 243px;
@@ -73,6 +74,8 @@
         background-color: $boxBack;
         overflow: hidden;
         transition: all 280ms ease;
+        text-wrap: nowrap;
+        text-overflow: hidden;
         img {
           width: 100%;
           height: auto;
