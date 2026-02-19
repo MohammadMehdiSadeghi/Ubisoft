@@ -933,6 +933,20 @@ header nav .icon-in-header .bxs-user {
   transform: scale(1.04);
 }
 
+@media (max-width: 1920px) {
+  .news-section {
+    width: 85% !important;
+  }
+  .news-box {
+    gap: 15px !important;
+  }
+  .news-box .news-card h1 {
+    font-size: 20px !important;
+  }
+  .news-box .news-card h3 {
+    font-size: 15px !important;
+  }
+}
 .game-information {
   width: 65%;
   display: flex;

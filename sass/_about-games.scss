@@ -75,3 +75,20 @@
     }
   }
 }
+
+@media (max-width: 1920px) {
+  .news-section {
+    width: 85% !important;
+  }
+  .news-box {
+    gap: 15px !important;
+    .news-card {
+      h1 {
+        font-size: 20px !important;
+      }
+      h3 {
+        font-size: 15px !important;
+      }
+    }
+  }
+}
