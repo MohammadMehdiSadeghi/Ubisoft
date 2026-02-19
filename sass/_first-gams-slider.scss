@@ -145,3 +145,28 @@
     }
   }
 }
+
+@media (max-width: 1920px) {
+  .first-game-slider {
+    width: 85%;
+    top: 95%;
+  }
+  .first-games-slider-root-section {
+    .first-games-slider-root {
+      .game-card {
+        width: 187px !important;
+        img {
+          width: 187px !important;
+          height: auto;
+          transition: all 280ms ease;
+        }
+        .game-name {
+          font-size: 17px !important;
+        }
+        .game-description {
+          font-size: 15px !important;
+        }
+      }
+    }
+  }
+}

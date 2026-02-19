@@ -592,6 +592,26 @@ header nav .icon-in-header .bxs-user {
   cursor: pointer;
 }
 
+@media (max-width: 1920px) {
+  .first-game-slider {
+    width: 85%;
+    top: 95%;
+  }
+  .first-games-slider-root-section .first-games-slider-root .game-card {
+    width: 187px !important;
+  }
+  .first-games-slider-root-section .first-games-slider-root .game-card img {
+    width: 187px !important;
+    height: auto;
+    transition: all 280ms ease;
+  }
+  .first-games-slider-root-section .first-games-slider-root .game-card .game-name {
+    font-size: 17px !important;
+  }
+  .first-games-slider-root-section .first-games-slider-root .game-card .game-description {
+    font-size: 15px !important;
+  }
+}
 .second-game-slider {
   width: 100%;
   margin: 150px auto 0 auto;
