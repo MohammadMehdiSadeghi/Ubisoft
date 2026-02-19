@@ -156,6 +156,34 @@ header nav .icon-in-header .bxs-user {
     font-size: 16px !important;
   }
 }
+.humburger-menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+.humburger-menu-icon span {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+}
+
+.hamburger-menu-section {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(38, 38, 38);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .open-modal-header-section {
+    display: none !important;
+  }
+}
 .open-modal-header-section {
   background-color: white;
   width: 95%;

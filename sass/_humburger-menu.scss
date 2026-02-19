@@ -1,0 +1,30 @@
+.humburger-menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  span {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+  }
+}
+
+
+.hamburger-menu-section{
+    width: 100%;
+    height: 100%;
+    background-color: $boxBack;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width : 768px) {
+    .open-modal-header-section{
+        display: none !important;
+    }
+
+}
