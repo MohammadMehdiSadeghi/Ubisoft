@@ -127,7 +127,7 @@ const secondSliderGameRoot = document.querySelector(
 
 (async () => {
   try {
-    const res = await fetch("/backend/top-slider-games-data.json");
+    const res = await fetch("/backend/top slider games data img second.json");
     const data = await res.json();
     data.map((item) => {
       if (item.discountPercent == null) {
