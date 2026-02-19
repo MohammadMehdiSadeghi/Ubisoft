@@ -431,7 +431,7 @@ header nav .icon-in-header .bxs-user {
     width: 85%;
   }
   .sliders-section .change-slider-by-box {
-    top: 58% !important;
+    top: 40% !important;
     flex-wrap: wrap;
   }
   .sliders-section .change-slider-by-box .change-box {
@@ -594,7 +594,7 @@ header nav .icon-in-header .bxs-user {
 @media (max-width: 1920px) {
   .first-game-slider {
     width: 85%;
-    top: 95%;
+    top: 105%;
   }
   .first-games-slider-root-section .first-games-slider-root .game-card {
     width: 187px !important;
