@@ -609,7 +609,7 @@ header nav .icon-in-header .bxs-user {
 .second-game-slider .title-in-second-game-slider-and-arrows .arrow-in-second-game-slider i:hover {
   color: rgb(200, 200, 200);
 }
-.second-game-slider .second-games-slider-root {
+.second-game-slider .second-games-slider-root-section {
   display: flex;
   align-items: start;
   justify-content: flex-start;
@@ -619,7 +619,13 @@ header nav .icon-in-header .bxs-user {
   width: 65%;
   padding: 15px;
 }
-.second-game-slider .second-games-slider-root .second-game-card {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card {
   flex-shrink: 0;
   width: 243px;
   height: fit-content;
@@ -634,38 +640,38 @@ header nav .icon-in-header .bxs-user {
   overflow: hidden;
   transition: all 280ms ease;
 }
-.second-game-slider .second-games-slider-root .second-game-card img {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card img {
   width: 100%;
   height: auto;
   transition: all 280ms ease;
 }
-.second-game-slider .second-games-slider-root .second-game-card .game-name {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .game-name {
   font-size: 20px;
   margin-left: 15px;
   margin-top: 10px;
   color: white;
 }
-.second-game-slider .second-games-slider-root .second-game-card .game-description {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .game-description {
   font-size: 17px;
   margin-left: 15px;
   margin-top: 5px;
   color: rgb(169, 169, 169);
 }
-.second-game-slider .second-games-slider-root .second-game-card .original-price {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .original-price {
   font-size: 17px;
   margin-left: 72%;
   margin-top: 15px;
   color: rgb(169, 169, 169);
   text-decoration: line-through;
 }
-.second-game-slider .second-games-slider-root .second-game-card .all-price {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .all-price {
   display: flex;
   align-items: end;
   justify-content: center;
   flex-direction: column;
   margin-left: 40%;
 }
-.second-game-slider .second-games-slider-root .second-game-card .all-price .discount-and-price {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .all-price .discount-and-price {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -673,19 +679,19 @@ header nav .icon-in-header .bxs-user {
   gap: 10px;
   margin-top: 5px;
 }
-.second-game-slider .second-games-slider-root .second-game-card .all-price .discount-and-price .price {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .all-price .discount-and-price .price {
   font-size: 17px;
   color: white;
 }
-.second-game-slider .second-games-slider-root .second-game-card .all-price .discount-and-price .discount {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .all-price .discount-and-price .discount {
   background-color: orangered;
   padding: 5px;
   border-radius: 6px;
 }
-.second-game-slider .second-games-slider-root .second-game-card:hover img {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card:hover img {
   transform: scale(1.04);
 }
-.second-game-slider .second-games-slider-root .second-game-card:hover {
+.second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card:hover {
   background-color: rgb(41, 15, 0);
   cursor: pointer;
 }

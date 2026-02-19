@@ -45,7 +45,7 @@
       }
     }
   }
-  .second-games-slider-root {
+  .second-games-slider-root-section {
     display: flex;
     align-items: start;
     justify-content: flex-start;
@@ -54,74 +54,80 @@
     overflow-x: hidden;
     width: 65%;
     padding: 15px;
-    .second-game-card {
-      flex-shrink: 0;
-      width: 243px;
-      height: fit-content;
-      padding-bottom: 25px;
+    .second-games-slider-root {
       display: flex;
       align-items: start;
-      justify-content: center;
-      position: relative;
-      flex-direction: column;
-      border-radius: 8px;
-      background-color: $boxBack;
-      overflow: hidden;
-      transition: all 280ms ease;
-      img {
-        width: 100%;
-        height: auto;
-        transition: all 280ms ease;
-      }
-      .game-name {
-        font-size: 20px;
-        margin-left: 15px;
-        margin-top: 10px;
-        color: white;
-      }
-      .game-description {
-        font-size: 17px;
-        margin-left: 15px;
-        margin-top: 5px;
-        color: rgb(169, 169, 169);
-      }
-      .original-price {
-        font-size: 17px;
-        margin-left: 72%;
-        margin-top: 15px;
-        color: rgb(169, 169, 169);
-        text-decoration: line-through;
-      }
-      .all-price {
+      justify-content: flex-start;
+      gap: 25px;
+      .second-game-card {
+        flex-shrink: 0;
+        width: 243px;
+        height: fit-content;
+        padding-bottom: 25px;
         display: flex;
-        align-items: end;
+        align-items: start;
         justify-content: center;
+        position: relative;
         flex-direction: column;
-        margin-left: 40%;
-        .discount-and-price {
-          display: flex;
-          align-items: center;
-          justify-content: flex-end;
+        border-radius: 8px;
+        background-color: $boxBack;
+        overflow: hidden;
+        transition: all 280ms ease;
+        img {
           width: 100%;
-          gap: 10px;
+          height: auto;
+          transition: all 280ms ease;
+        }
+        .game-name {
+          font-size: 20px;
+          margin-left: 15px;
+          margin-top: 10px;
+          color: white;
+        }
+        .game-description {
+          font-size: 17px;
+          margin-left: 15px;
           margin-top: 5px;
-          .price {
-            font-size: 17px;
-            color: white;
-          }
-          .discount {
-            background-color: orangered;
-            padding: 5px;
-            border-radius: 6px;
+          color: rgb(169, 169, 169);
+        }
+        .original-price {
+          font-size: 17px;
+          margin-left: 72%;
+          margin-top: 15px;
+          color: rgb(169, 169, 169);
+          text-decoration: line-through;
+        }
+        .all-price {
+          display: flex;
+          align-items: end;
+          justify-content: center;
+          flex-direction: column;
+          margin-left: 40%;
+          .discount-and-price {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 100%;
+            gap: 10px;
+            margin-top: 5px;
+            .price {
+              font-size: 17px;
+              color: white;
+            }
+            .discount {
+              background-color: orangered;
+              padding: 5px;
+              border-radius: 6px;
+            }
           }
         }
-      }
-      &:hover img {
-        transform: scale(1.04);
-      }
-      &:hover {
-        background-color: rgb(41, 15, 0);
-        cursor: pointer;
+        &:hover img {
+          transform: scale(1.04);
+        }
+        &:hover {
+          background-color: rgb(41, 15, 0);
+          cursor: pointer;
+        }
       }
     }
   }

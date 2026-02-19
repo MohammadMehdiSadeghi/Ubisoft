@@ -119,3 +119,42 @@ prevBtn.addEventListener("click", () => {
   prevBtn.disabled = true;
 });
 
+// first game slider fetch
+
+const secondSliderGameRoot = document.querySelector(
+  ".second-games-slider-root",
+);
+
+(async () => {
+  try {
+    const res = await fetch("/backend/top-slider-games-data.json");
+    const data = await res.json();
+    data.map((item) => {
+      if (item.discountPercent == null) {
+        item.discountPercent = "0%";
+      }
+      if (item.originalPrice == null) {
+        item.originalPrice = item.finalPrice;
+      }
+      secondSliderGameRoot.innerHTML += `
+            <div class="second-game-card">
+              <img
+                src="${item.image}"
+                alt=""
+              />
+              <h2 class="game-name">${item.title}</h2>
+              <p class="game-description">${item.description}</p>
+              <div class="all-price">
+                <p class="original-price">${item.originalPrice}</p>
+                <div class="discount-and-price">
+                  <p class="discount">${item.discountPercent}</p>
+                  <p class="price">${item.finalPrice}</p>
+                </div>
+              </div>
+            </div>
+      `;
+    });
+  } catch (error) {
+    console.log(error.message);
+  }
+})();
