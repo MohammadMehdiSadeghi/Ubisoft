@@ -69,7 +69,7 @@
       align-items: start;
       justify-content: flex-start;
       gap: 25px;
-      transition: all 340ms ease; 
+      transition: all 340ms ease;
       .game-card {
         flex-shrink: 0;
         width: 243px;
@@ -134,13 +134,13 @@
             }
           }
         }
-      }
-      &:hover img {
-        transform: scale(1.04);
-      }
-      &:hover {
-        background-color: rgb(41, 15, 0);
-        cursor: pointer;
+        &:hover img {
+          transform: scale(1.04);
+        }
+        &:hover {
+          background-color: rgb(41, 15, 0);
+          cursor: pointer;
+        }
       }
     }
   }

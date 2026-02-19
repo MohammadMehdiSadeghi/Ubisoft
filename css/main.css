@@ -555,10 +555,10 @@ header nav .icon-in-header .bxs-user {
   padding: 5px;
   border-radius: 6px;
 }
-.first-game-slider .first-games-slider-root-section .first-games-slider-root:hover img {
+.first-game-slider .first-games-slider-root-section .first-games-slider-root .game-card:hover img {
   transform: scale(1.04);
 }
-.first-game-slider .first-games-slider-root-section .first-games-slider-root:hover {
+.first-game-slider .first-games-slider-root-section .first-games-slider-root .game-card:hover {
   background-color: rgb(41, 15, 0);
   cursor: pointer;
 }

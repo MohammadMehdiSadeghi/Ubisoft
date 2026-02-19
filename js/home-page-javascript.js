@@ -118,3 +118,4 @@ prevBtn.addEventListener("click", () => {
   spansSlider[1].classList.remove("back-color-span-for-slider");
   prevBtn.disabled = true;
 });
+
