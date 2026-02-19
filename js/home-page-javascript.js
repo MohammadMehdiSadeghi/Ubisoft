@@ -59,3 +59,35 @@ allBtn.forEach((btn, index) => {
     }
   });
 });
+
+// first game slider fetch
+
+const sliderGameRoot = document.querySelector(".first-games-slider-root");
+
+(async () => {
+  try {
+    const res = await fetch("/backend/top-slider-games-data.json");
+    const data = await res.json();
+    data.map((item) => {
+      sliderGameRoot.innerHTML += `
+        <div class="game-card">
+            <img
+              src="${item.image}"
+              alt=""
+            />
+            <h2 class="game-name">${item.title}</h2>
+            <p class="game-description">${item.description}</p>
+            <div class="all-price">
+              <p class="original-price">${item.price}</p>
+              <div class="discount-and-price">
+                <p class="discount">${item.discountPercent}</p>
+                <p class="price">${item.finalPrice}</p>
+              </div>
+            </div>
+        </div>
+      `;
+    });
+  } catch (error) {
+    console.log(error.message);
+  }
+})();
