@@ -486,27 +486,29 @@ header nav .icon-in-header .bxs-user {
   padding-bottom: 25px;
   display: flex;
   align-items: start;
-  justify-content: center;
+  justify-content: start;
   position: relative;
   flex-direction: column;
   border-radius: 8px;
   background-color: rgb(38, 38, 38);
   overflow: hidden;
   transition: all 280ms ease;
+  text-wrap: nowrap;
+  text-overflow: hidden;
 }
 .first-game-slider .first-games-slider-root .game-card img {
-  width: 100%;
+  width: 243px;
   height: auto;
   transition: all 280ms ease;
 }
 .first-game-slider .first-games-slider-root .game-card .game-name {
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 15px;
   margin-top: 10px;
   color: white;
 }
 .first-game-slider .first-games-slider-root .game-card .game-description {
-  font-size: 17px;
+  font-size: 16px;
   margin-left: 15px;
   margin-top: 5px;
   color: rgb(169, 169, 169);
