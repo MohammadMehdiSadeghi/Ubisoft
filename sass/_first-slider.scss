@@ -3,7 +3,7 @@
   height: calc(100vh - 60px);
   background-repeat: no-repeat;
   background-size: 100%;
-  
+
   .top-boxs {
     width: 65%;
     height: 750px;
@@ -101,6 +101,29 @@
         }
         &:hover {
           background-color: rgb(32, 32, 32);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .sliders-section {
+    .top-boxs {
+      width: 85%;
+    }
+    .change-slider-by-box {
+      top: 58% !important;
+      flex-wrap: wrap;
+      .change-box {
+        width: 590px;
+        height: 120px;
+        justify-content: start !important;
+        img {
+          width: 130px !important;
+        }
+        p {
+          font-size: 16px;
         }
       }
     }

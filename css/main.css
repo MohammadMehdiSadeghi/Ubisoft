@@ -151,6 +151,11 @@ header nav .icon-in-header .bxs-user {
   padding: 4px;
 }
 
+@media (max-width: 1920px) {
+  header nav ul li {
+    font-size: 16px !important;
+  }
+}
 .open-modal-header-section {
   background-color: white;
   width: 95%;
@@ -421,6 +426,26 @@ header nav .icon-in-header .bxs-user {
   background-color: rgb(32, 32, 32);
 }
 
+@media (max-width: 1920px) {
+  .sliders-section .top-boxs {
+    width: 85%;
+  }
+  .sliders-section .change-slider-by-box {
+    top: 58% !important;
+    flex-wrap: wrap;
+  }
+  .sliders-section .change-slider-by-box .change-box {
+    width: 590px;
+    height: 120px;
+    justify-content: start !important;
+  }
+  .sliders-section .change-slider-by-box .change-box img {
+    width: 130px !important;
+  }
+  .sliders-section .change-slider-by-box .change-box p {
+    font-size: 16px;
+  }
+}
 .first-game-slider {
   width: 65%;
   height: fit-content;
