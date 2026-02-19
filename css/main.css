@@ -1229,4 +1229,16 @@ footer .row-three-in-footer ul li a {
 }
 footer .row-three-in-footer ul li a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1920px) {
+  .row-one-in-footer {
+    width: 85% !important;
+  }
+  .row-two-in-footer {
+    width: 85% !important;
+  }
+  .row-three-in-footer {
+    width: 85% !important;
+  }
 }/*# sourceMappingURL=main.css.map */

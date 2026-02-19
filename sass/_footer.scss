@@ -117,3 +117,14 @@ footer {
     }
   }
 }
+@media (max-width: 1920px) {
+  .row-one-in-footer {
+    width: 85% !important;
+  }
+  .row-two-in-footer {
+    width: 85% !important;
+  }
+  .row-three-in-footer {
+    width: 85% !important;
+  }
+}
