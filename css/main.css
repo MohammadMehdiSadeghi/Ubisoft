@@ -616,7 +616,7 @@ header nav .icon-in-header .bxs-user {
 }
 .second-game-slider {
   width: 100%;
-  margin: 150px auto;
+  margin: 150px auto 50px auto;
   height: fit-content;
   padding: 20px;
   display: flex;
@@ -835,6 +835,26 @@ header nav .icon-in-header .bxs-user {
   border-radius: 8px;
 }
 
+@media (max-width: 1920px) {
+  .game-banner {
+    width: 85%;
+  }
+  .game-banner .game-banner-img-box {
+    gap: 20px;
+  }
+  .game-banner .game-banner-img-box img {
+    width: 100%;
+  }
+  .game-banner .game-banner-img-box .rainbow:hover h3 {
+    top: 83%;
+  }
+  .game-banner .game-banner-img-box .assassin:hover h3 {
+    top: 83%;
+  }
+  .game-banner .game-banner-img-box .the-crew:hover h3 {
+    top: 83%;
+  }
+}
 .news-section {
   width: 65%;
   display: flex;

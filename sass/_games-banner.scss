@@ -54,3 +54,24 @@
     }
   }
 }
+
+@media (max-width: 1920px) {
+  .game-banner {
+    width: 85%;
+    .game-banner-img-box {
+      gap: 20px;
+      img {
+        width: 100%;
+      }
+      .rainbow:hover h3 {
+        top: 83%;
+      }
+      .assassin:hover h3 {
+        top: 83%;
+      }
+      .the-crew:hover h3 {
+        top: 83%;
+      }
+    }
+  }
+}
