@@ -97,3 +97,24 @@ const sliderGameRoot = document.querySelector(".first-games-slider-root");
     console.log(error.message);
   }
 })();
+
+// transform game slider
+
+const nextBtn = document.querySelector(".next-in-first-game-slider");
+const prevBtn = document.querySelector(".prev-in-first-game-slider");
+const gameSlider = document.querySelector(".first-games-slider-root");
+const spansSlider = document.querySelectorAll(".spans-in-game-slider span");
+
+nextBtn.addEventListener("click", () => {
+  gameSlider.classList.add("transform-game-slider");
+  spansSlider[0].classList.remove("back-color-span-for-slider");
+  spansSlider[1].classList.add("back-color-span-for-slider");
+  nextBtn.disabled = true;
+});
+
+prevBtn.addEventListener("click", () => {
+  gameSlider.classList.remove("transform-game-slider");
+  spansSlider[0].classList.add("back-color-span-for-slider");
+  spansSlider[1].classList.remove("back-color-span-for-slider");
+  prevBtn.disabled = true;
+});
