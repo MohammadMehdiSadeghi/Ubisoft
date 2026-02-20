@@ -63,12 +63,14 @@
     overflow-x: hidden;
     width: 100%;
     padding: 15px;
+    margin: 0 auto;
     .first-games-slider-root {
       display: flex;
       align-items: start;
       justify-content: flex-start;
       gap: 25px;
       transition: all 340ms ease;
+      margin: 0 auto;
       .game-card {
         flex-shrink: 0;
         width: 243px;

@@ -692,6 +692,7 @@ header nav .icon-in-header .bxs-user {
   overflow-x: hidden;
   width: 100%;
   padding: 15px;
+  margin: 0 auto;
 }
 .first-game-slider .first-games-slider-root-section .first-games-slider-root {
   display: flex;
@@ -699,6 +700,7 @@ header nav .icon-in-header .bxs-user {
   justify-content: flex-start;
   gap: 25px;
   transition: all 340ms ease;
+  margin: 0 auto;
 }
 .first-game-slider .first-games-slider-root-section .first-games-slider-root .game-card {
   flex-shrink: 0;
