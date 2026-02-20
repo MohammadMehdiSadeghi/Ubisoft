@@ -1,16 +1,5 @@
 .humburger-menu-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 5px;
-  padding: 5px 10px;
-  span {
-    width: 20px !important;
-    height: 2px !important;
-    background-color: white;
-    transition: all 280ms;
-  }
+  display: none;
 }
 
 .hamburger-menu-section {
@@ -52,6 +41,23 @@
     li {
       padding: 5px;
       font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .humburger-menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 10px;
+    span {
+      width: 20px !important;
+      height: 2px !important;
+      background-color: white;
+      transition: all 280ms;
     }
   }
 }

@@ -210,18 +210,7 @@ header nav .icon-in-header .bxs-user {
   }
 }
 .humburger-menu-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 5px;
-  padding: 5px 10px;
-}
-.humburger-menu-icon span {
-  width: 20px !important;
-  height: 2px !important;
-  background-color: white;
-  transition: all 280ms;
+  display: none;
 }
 
 .hamburger-menu-section {
@@ -265,6 +254,22 @@ header nav .icon-in-header .bxs-user {
   font-size: 20px;
 }
 
+@media (max-width: 768px) {
+  .humburger-menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 10px;
+  }
+  .humburger-menu-icon span {
+    width: 20px !important;
+    height: 2px !important;
+    background-color: white;
+    transition: all 280ms;
+  }
+}
 .open-modal-header-section {
   background-color: white;
   width: 95%;
