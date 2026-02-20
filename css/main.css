@@ -1472,4 +1472,29 @@ footer .row-three-in-footer ul li a:hover {
   .row-three-in-footer {
     width: 85% !important;
   }
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 0;
+  }
+  .row-one-in-footer {
+    width: 90% !important;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+  }
+  .row-two-in-footer {
+    width: 90% !important;
+    flex-direction: column;
+    gap: 70px;
+  }
+  .row-two-in-footer ul {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .row-three-in-footer {
+    flex-direction: column;
+    width: 90% !important;
+    margin-bottom: 40px;
+  }
 }/*# sourceMappingURL=main.css.map */
