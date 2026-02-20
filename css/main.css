@@ -1158,6 +1158,40 @@ header nav .icon-in-header .bxs-user {
     gap: 15px;
   }
 }
+@media (max-width: 768px) {
+  .game-information {
+    width: 90% !important;
+    margin-top: 100px;
+    padding: 0;
+    overflow-x: scroll;
+  }
+  .game-information .game-information-title {
+    gap: 10px;
+  }
+  .game-information .game-information-title h1 {
+    font-size: 24px;
+  }
+  .game-information .game-information-title a {
+    font-size: 16px;
+  }
+  .game-information .game-information-box {
+    margin: 0 auto;
+    width: 100%;
+    width: 900px !important;
+    justify-content: flex-start !important;
+    align-items: start !important;
+  }
+  .game-information .game-information-box .game-information-card {
+    justify-content: start !important;
+    width: 600px;
+    height: 300px;
+  }
+  .game-information .game-information-box .game-information-card h1,
+  .game-information .game-information-box .game-information-card h2,
+  .game-information .game-information-box .game-information-card button {
+    margin-left: 10px;
+  }
+}
 .ubisoft-connect {
   display: flex;
   align-items: center;
