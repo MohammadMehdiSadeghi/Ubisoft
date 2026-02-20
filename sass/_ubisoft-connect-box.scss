@@ -55,3 +55,31 @@
     width: 85%;
   }
 }
+
+@media (max-width: 768px) {
+  .ubisoft-connect {
+    gap: 30px;
+    width: 90%;
+    flex-direction: column;
+    .connect-text {
+      text-wrap: wrap !important;
+      margin: 15px 0 0 20px;
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        text-wrap: wrap !important;
+        font-size: 16px;
+        padding-right: 15px;
+      }
+      button {
+        font-size: 15px;
+      }
+    }
+    .connect-img {
+      img {
+        width: 400px;
+      }
+    }
+  }
+}

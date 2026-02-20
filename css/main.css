@@ -1278,6 +1278,31 @@ header nav .icon-in-header .bxs-user {
     width: 85%;
   }
 }
+@media (max-width: 768px) {
+  .ubisoft-connect {
+    gap: 30px;
+    width: 90%;
+    flex-direction: column;
+  }
+  .ubisoft-connect .connect-text {
+    text-wrap: wrap !important;
+    margin: 15px 0 0 20px;
+  }
+  .ubisoft-connect .connect-text h1 {
+    font-size: 24px;
+  }
+  .ubisoft-connect .connect-text p {
+    text-wrap: wrap !important;
+    font-size: 16px;
+    padding-right: 15px;
+  }
+  .ubisoft-connect .connect-text button {
+    font-size: 15px;
+  }
+  .ubisoft-connect .connect-img img {
+    width: 400px;
+  }
+}
 .social-box {
   width: 100%;
   background-color: black;
