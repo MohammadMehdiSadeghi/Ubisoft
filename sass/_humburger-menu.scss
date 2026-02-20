@@ -9,6 +9,7 @@
     width: 20px !important;
     height: 2px !important;
     background-color: white;
+    transition: all 280ms;
   }
 }
 
@@ -20,24 +21,27 @@
   position: absolute;
   top: calc(0% + 60px);
   left: -120%;
-  transition: all 280ms ease;
+  transition: all 400ms ease;
   ul {
     padding: 15px;
     border-bottom: 1px solid rgb(114, 114, 114);
     .open-modal-in-header-mobile-size {
       p {
         color: white;
+        i {
+          transition: all 280ms ease;
+        }
       }
       .link-box {
         display: flex;
-        height: 0 !important;
+        height: 0;
         width: 100%;
         overflow: hidden;
         align-items: start;
         justify-content: start;
         flex-direction: column;
         gap: 15px;
-        transition: all 320ms ease;
+        transition: all 820ms ease;
         a {
           font-family: "UbisoftFont-regular";
           font-size: 18px;

@@ -59,13 +59,35 @@ body {
 }
 
 .fit-content-height {
-  height: fit-content;
+  height: 100px !important;
   padding-bottom: 15px;
   margin-top: 15px;
 }
 
+.rotate-arrow {
+  transform: rotate(180deg);
+}
+
 .show-humbergur-menu {
-  left: 0;
+  left: 0 !important;
+}
+
+.disabled-span {
+  display: none !important;
+}
+
+.rotate-first-span {
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.rotate-last-span {
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+.body-overflow {
+  overflow: hidden !important;
 }
 
 header {
@@ -199,6 +221,7 @@ header nav .icon-in-header .bxs-user {
   width: 20px !important;
   height: 2px !important;
   background-color: white;
+  transition: all 280ms;
 }
 
 .hamburger-menu-section {
@@ -209,7 +232,7 @@ header nav .icon-in-header .bxs-user {
   position: absolute;
   top: calc(0% + 60px);
   left: -120%;
-  transition: all 280ms ease;
+  transition: all 400ms ease;
 }
 .hamburger-menu-section ul {
   padding: 15px;
@@ -218,16 +241,19 @@ header nav .icon-in-header .bxs-user {
 .hamburger-menu-section ul .open-modal-in-header-mobile-size p {
   color: white;
 }
+.hamburger-menu-section ul .open-modal-in-header-mobile-size p i {
+  transition: all 280ms ease;
+}
 .hamburger-menu-section ul .open-modal-in-header-mobile-size .link-box {
   display: flex;
-  height: 0 !important;
+  height: 0;
   width: 100%;
   overflow: hidden;
   align-items: start;
   justify-content: start;
   flex-direction: column;
   gap: 15px;
-  transition: all 320ms ease;
+  transition: all 820ms ease;
 }
 .hamburger-menu-section ul .open-modal-in-header-mobile-size .link-box a {
   font-family: "UbisoftFont-regular";

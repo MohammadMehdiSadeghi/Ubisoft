@@ -32,11 +32,33 @@
 }
 
 .fit-content-height {
-  height: fit-content;
+  height: 100px !important;
   padding-bottom: 15px;
   margin-top: 15px;
 }
 
+.rotate-arrow {
+  transform: rotate(180deg);
+}
+
 .show-humbergur-menu {
-  left: 0;
+  left: 0 !important;
+}
+
+.disabled-span {
+  display: none !important;
+}
+
+.rotate-first-span {
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.rotate-last-span {
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+.body-overflow{
+  overflow: hidden !important;
 }

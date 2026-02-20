@@ -194,3 +194,60 @@ prevBtnSecondSlider.addEventListener("click", () => {
   spansSliderSecondSlider[1].classList.remove("back-color-span-for-slider");
   prevBtn.disabled = true;
 });
+
+// humbergur menu js
+
+const humberIcon = document.querySelector(".humburger-menu-icon");
+const deleteHubmerSpan = document.querySelector(
+  ".humburger-menu-icon span:nth-child(2)",
+);
+const firstSpan = document.querySelector(
+  ".humburger-menu-icon span:nth-child(1)",
+);
+const lastSpan = document.querySelector(
+  ".humburger-menu-icon span:nth-child(3)",
+);
+const body = document.querySelector("body");
+const hubmerSection = document.querySelector(".hamburger-menu-section");
+
+let isActiveHumberMenu = false;
+
+humberIcon.addEventListener("click", () => {
+  if (!isActiveHumberMenu) {
+    hubmerSection.classList.add("show-humbergur-menu");
+    deleteHubmerSpan.classList.add("disabled-span");
+    firstSpan.classList.add("rotate-first-span");
+    lastSpan.classList.add("rotate-last-span");
+    isActiveHumberMenu = true;
+    body.classList.add("body-overflow");
+  } else {
+    hubmerSection.classList.remove("show-humbergur-menu");
+    deleteHubmerSpan.classList.remove("disabled-span");
+    firstSpan.classList.remove("rotate-first-span");
+    lastSpan.classList.remove("rotate-last-span");
+    isActiveHumberMenu = false;
+    body.classList.remove("body-overflow");
+  }
+});
+
+const gameMenuInHumburgerMenuBtn = document.querySelector(
+  ".open-modal-in-header-mobile-size p",
+);
+const gameMenuInHumburgerMenuBtnArrow = document.querySelector(
+  ".open-modal-in-header-mobile-size p > i",
+);
+const gameUnderMenu = document.querySelector(".link-box");
+
+let isActiveUnderMenu = false;
+
+gameMenuInHumburgerMenuBtn.addEventListener("click", () => {
+  if (!isActiveUnderMenu) {
+    gameUnderMenu.classList.add("fit-content-height");
+    gameMenuInHumburgerMenuBtnArrow.classList.add("rotate-arrow");
+    isActiveUnderMenu = true;
+  } else {
+    gameUnderMenu.classList.remove("fit-content-height");
+    gameMenuInHumburgerMenuBtnArrow.classList.remove("rotate-arrow");
+    isActiveUnderMenu = false;
+  }
+});
