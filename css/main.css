@@ -499,7 +499,7 @@ header nav .icon-in-header .bxs-user {
     font-size: 16px;
   }
 }
-@media (max-width: 1920px) {
+@media (max-width: 768px) {
   .top-slider-boxs {
     flex-direction: column;
   }
@@ -697,6 +697,20 @@ header nav .icon-in-header .bxs-user {
   }
   .first-games-slider-root-section .first-games-slider-root .game-card .all-price {
     margin-left: 30% !important;
+  }
+}
+@media (max-width: 1920px) {
+  .first-game-slider {
+    top: 98%;
+    width: 95%;
+    gap: 15px;
+  }
+  .first-game-slider .title-in-first-game-slider-and-arrows .arrow-in-first-game-slider {
+    display: none;
+  }
+  .first-game-slider .first-games-slider-root-section {
+    padding: 0;
+    overflow-x: scroll;
   }
 }
 .second-game-slider {

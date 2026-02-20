@@ -172,3 +172,20 @@
     }
   }
 }
+
+@media (max-width: 1920px) {
+  .first-game-slider {
+    top: 98%;
+    width: 95%;
+    gap: 15px;
+    .title-in-first-game-slider-and-arrows {
+      .arrow-in-first-game-slider {
+        display: none;
+      }
+    }
+    .first-games-slider-root-section {
+      padding: 0;
+      overflow-x: scroll;
+    }
+  }
+}
