@@ -114,13 +114,15 @@ header {
 @media (max-width: 768px) {
   header {
     nav {
-      justify-content: center;
+      justify-content: start;
       ul {
-        li {
-          display: none;
-        }
-        li:first-child {
-          display: block;
+        gap: 90px;
+        margin-left: 15px;
+        li:nth-child(3),
+        li:nth-child(4),
+        li:nth-child(5),
+        li:nth-child(6) {
+          display: none !important;
         }
       }
     }

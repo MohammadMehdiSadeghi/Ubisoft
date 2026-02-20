@@ -58,6 +58,16 @@ body {
   transform: translateX(-25%);
 }
 
+.fit-content-height {
+  height: fit-content;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.show-humbergur-menu {
+  left: 0;
+}
+
 header {
   width: 100%;
   height: fit-content;
@@ -158,13 +168,17 @@ header nav .icon-in-header .bxs-user {
 }
 @media (max-width: 768px) {
   header nav {
-    justify-content: center;
+    justify-content: start;
   }
-  header nav ul li {
-    display: none;
+  header nav ul {
+    gap: 90px;
+    margin-left: 15px;
   }
-  header nav ul li:first-child {
-    display: block;
+  header nav ul li:nth-child(3),
+  header nav ul li:nth-child(4),
+  header nav ul li:nth-child(5),
+  header nav ul li:nth-child(6) {
+    display: none !important;
   }
   header ul:nth-child(2) {
     display: none !important;
@@ -173,6 +187,58 @@ header nav .icon-in-header .bxs-user {
     display: none !important;
   }
 }
+.humburger-menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 10px;
+}
+.humburger-menu-icon span {
+  width: 20px !important;
+  height: 2px !important;
+  background-color: white;
+}
+
+.hamburger-menu-section {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(38, 38, 38);
+  z-index: 2000;
+  position: absolute;
+  top: calc(0% + 60px);
+  left: -120%;
+  transition: all 280ms ease;
+}
+.hamburger-menu-section ul {
+  padding: 15px;
+  border-bottom: 1px solid rgb(114, 114, 114);
+}
+.hamburger-menu-section ul .open-modal-in-header-mobile-size p {
+  color: white;
+}
+.hamburger-menu-section ul .open-modal-in-header-mobile-size .link-box {
+  display: flex;
+  height: 0 !important;
+  width: 100%;
+  overflow: hidden;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 15px;
+  transition: all 320ms ease;
+}
+.hamburger-menu-section ul .open-modal-in-header-mobile-size .link-box a {
+  font-family: "UbisoftFont-regular";
+  font-size: 18px;
+  margin-left: 20px;
+}
+.hamburger-menu-section ul li {
+  padding: 5px;
+  font-size: 20px;
+}
+
 .open-modal-header-section {
   background-color: white;
   width: 95%;
