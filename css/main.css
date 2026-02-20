@@ -699,7 +699,7 @@ header nav .icon-in-header .bxs-user {
     margin-left: 30% !important;
   }
 }
-@media (max-width: 1920px) {
+@media (max-width: 768px) {
   .first-game-slider {
     top: 98%;
     width: 95%;
@@ -877,7 +877,7 @@ header nav .icon-in-header .bxs-user {
     margin-left: 30% !important;
   }
 }
-@media (max-width: 1920px) {
+@media (max-width: 768px) {
   .second-game-slider {
     margin: 270px auto 50px auto;
     padding: 0;
@@ -964,6 +964,25 @@ header nav .icon-in-header .bxs-user {
   }
   .game-banner .game-banner-img-box .the-crew:hover h3 {
     top: 83%;
+  }
+}
+@media (max-width: 768px) {
+  .game-banner {
+    width: 90%;
+  }
+  .game-banner .game-banner-title {
+    font-size: 24px;
+    margin-left: 5px;
+  }
+  .game-banner .game-banner-img-box {
+    flex-direction: column;
+    width: 100%;
+  }
+  .game-banner .game-banner-img-box div {
+    width: 100%;
+  }
+  .game-banner .game-banner-img-box div h3 {
+    top: 80%;
   }
 }
 .news-section {
