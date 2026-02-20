@@ -166,3 +166,18 @@
     }
   }
 }
+
+@media (max-width: 1920px) {
+  .second-game-slider {
+    margin: 270px auto 50px auto;
+    padding: 0;
+    .title-in-second-game-slider-and-arrows {
+      .arrow-in-second-game-slider {
+        display: none;
+      }
+    }
+      .second-games-slider-root-section {
+        overflow-x: scroll;
+      }
+  }
+}

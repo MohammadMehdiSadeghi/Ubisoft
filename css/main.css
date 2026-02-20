@@ -14,7 +14,7 @@ a {
 body {
   background-image: url(/assets/img/Untitled-1\ copy.jpg);
   background-size: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 @font-face {
@@ -875,6 +875,18 @@ header nav .icon-in-header .bxs-user {
   }
   .second-game-slider .second-games-slider-root-section .second-games-slider-root .second-game-card .all-price {
     margin-left: 30% !important;
+  }
+}
+@media (max-width: 1920px) {
+  .second-game-slider {
+    margin: 270px auto 50px auto;
+    padding: 0;
+  }
+  .second-game-slider .title-in-second-game-slider-and-arrows .arrow-in-second-game-slider {
+    display: none;
+  }
+  .second-game-slider .second-games-slider-root-section {
+    overflow-x: scroll;
   }
 }
 .game-banner {
