@@ -1077,6 +1077,40 @@ header nav .icon-in-header .bxs-user {
     font-size: 15px !important;
   }
 }
+@media (max-width: 768px) {
+  .news-section {
+    width: 90%;
+    gap: 10px;
+    overflow-x: scroll;
+  }
+  .news-section .news-title {
+    margin-bottom: 20px;
+  }
+  .news-section .news-title h1 {
+    font-size: 22px !important;
+  }
+  .news-section .news-title a {
+    font-size: 16px !important;
+  }
+  .news-section .news-box {
+    width: 1000px;
+  }
+  .news-section .news-box .news-card {
+    height: 380px;
+  }
+  .news-section .news-box .news-card .name-game-news {
+    font-size: 15px !important;
+  }
+  .news-section .news-box .news-card h1 {
+    font-size: 20px !important;
+  }
+  .news-section .news-box .news-card h3 {
+    font-size: 15px !important;
+  }
+  .news-section .news-box .news-card .date-in-news-box {
+    font-size: 15px !important;
+  }
+}
 .game-information {
   width: 65%;
   display: flex;

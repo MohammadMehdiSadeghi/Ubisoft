@@ -92,3 +92,38 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .news-section {
+    width: 90%;
+    gap: 10px;
+    overflow-x: scroll;
+    .news-title {
+      margin-bottom: 20px;
+      h1 {
+        font-size: 22px !important;
+      }
+      a {
+        font-size: 16px !important;
+      }
+    }
+    .news-box {
+      width: 1000px;
+      .news-card {
+        height: 380px;
+        .name-game-news {
+          font-size: 15px !important;
+        }
+        h1 {
+          font-size: 20px !important;
+        }
+        h3 {
+          font-size: 15px !important;
+        }
+        .date-in-news-box {
+          font-size: 15px !important;
+        }
+      }
+    }
+  }
+}
