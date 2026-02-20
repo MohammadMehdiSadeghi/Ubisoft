@@ -37,3 +37,12 @@
     width: 85% !important;
   }
 }
+
+@media (max-width: 768px) {
+  .text-in-social-box {
+    display: none;
+  }
+  .icon-social {
+    width: 90%;
+  }
+}

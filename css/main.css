@@ -1342,6 +1342,14 @@ header nav .icon-in-header .bxs-user {
     width: 85% !important;
   }
 }
+@media (max-width: 768px) {
+  .text-in-social-box {
+    display: none;
+  }
+  .icon-social {
+    width: 90%;
+  }
+}
 footer {
   width: 100%;
   background-color: rgb(29, 30, 34);
