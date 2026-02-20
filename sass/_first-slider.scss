@@ -43,6 +43,7 @@
         p {
           color: rgb(160, 160, 160);
           font-size: 18px;
+          font-family: "UbisoftFont-regular";
         }
         button {
           background-color: $btnColor;
@@ -125,6 +126,41 @@
         p {
           font-size: 16px;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .top-slider-boxs {
+    flex-direction: column;
+    div {
+      h3 {
+        font-size: 18px !important;
+      }
+      h1 {
+        font-size: 20px !important;
+      }
+      p {
+        font-size: 16px !important ;
+      }
+      button {
+        font-size: 16px;
+      }
+    }
+    div:last-child {
+      width: 100% !important;
+    }
+  }
+  .change-slider-by-box {
+    gap: 10px !important;
+    margin-top: 110px;
+    .change-box {
+      width: 140px !important;
+      height: fit-content !important;
+      padding: 7px !important;
+      p {
+        display: none;
       }
     }
   }

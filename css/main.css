@@ -418,6 +418,7 @@ header nav .icon-in-header .bxs-user {
 .sliders-section .top-boxs .top-slider-boxs div p {
   color: rgb(160, 160, 160);
   font-size: 18px;
+  font-family: "UbisoftFont-regular";
 }
 .sliders-section .top-boxs .top-slider-boxs div button {
   background-color: #006ef5;
@@ -496,6 +497,38 @@ header nav .icon-in-header .bxs-user {
   }
   .sliders-section .change-slider-by-box .change-box p {
     font-size: 16px;
+  }
+}
+@media (max-width: 1920px) {
+  .top-slider-boxs {
+    flex-direction: column;
+  }
+  .top-slider-boxs div h3 {
+    font-size: 18px !important;
+  }
+  .top-slider-boxs div h1 {
+    font-size: 20px !important;
+  }
+  .top-slider-boxs div p {
+    font-size: 16px !important;
+  }
+  .top-slider-boxs div button {
+    font-size: 16px;
+  }
+  .top-slider-boxs div:last-child {
+    width: 100% !important;
+  }
+  .change-slider-by-box {
+    gap: 10px !important;
+    margin-top: 110px;
+  }
+  .change-slider-by-box .change-box {
+    width: 140px !important;
+    height: fit-content !important;
+    padding: 7px !important;
+  }
+  .change-slider-by-box .change-box p {
+    display: none;
   }
 }
 .first-game-slider {
