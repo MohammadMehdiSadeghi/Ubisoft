@@ -110,3 +110,25 @@ header {
     }
   }
 }
+
+@media (max-width: 768px) {
+  header {
+    nav {
+      justify-content: center;
+      ul {
+        li {
+          display: none;
+        }
+        li:first-child {
+          display: block;
+        }
+      }
+    }
+    ul:nth-child(2) {
+      display: none !important;
+      li {
+        display: none !important;
+      }
+    }
+  }
+}

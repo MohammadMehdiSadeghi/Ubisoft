@@ -189,7 +189,7 @@
     }
   }
   .div-three-in-row-one-in-modal-header {
-  top: -150% !important;
+    top: -150% !important;
     .game-card-in-modal-boxs {
       justify-content: start !important;
       flex-wrap: wrap;
@@ -200,5 +200,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .open-modal-header-section {
+    display: none;
   }
 }
