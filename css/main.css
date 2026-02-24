@@ -17,6 +17,11 @@ body {
   overflow-x: hidden !important;
 }
 
+div,
+section {
+  overflow-x: auto !important;
+}
+
 @font-face {
   font-family: "UbisoftFont-bold";
   src: url(/assets/fonts/Ubisoft\ Sans\ Bold.ttf);
@@ -822,6 +827,11 @@ header nav .icon-in-header .bxs-user {
     overflow-x: scroll;
   }
 }
+@media (max-width: 450px) {
+  .first-game-slider {
+    top: 110%;
+  }
+}
 .second-game-slider {
   width: 100%;
   margin: 150px auto 50px auto;
@@ -996,6 +1006,11 @@ header nav .icon-in-header .bxs-user {
   }
   .second-game-slider .second-games-slider-root-section {
     overflow-x: scroll;
+  }
+}
+@media (max-width: 450px) {
+  .second-game-slider {
+    margin-top: 350px;
   }
 }
 .game-banner {
