@@ -207,10 +207,19 @@ const firstSpan = document.querySelector(
 const lastSpan = document.querySelector(
   ".humburger-menu-icon span:nth-child(3)",
 );
+const gameMenuInHumburgerMenuBtn = document.querySelector(
+  ".open-modal-in-header-mobile-size p",
+);
+const gameMenuInHumburgerMenuBtnArrow = document.querySelector(
+  ".open-modal-in-header-mobile-size p > i",
+);
+const gameUnderMenu = document.querySelector(".link-box");
+
 const body = document.querySelector("body");
 const hubmerSection = document.querySelector(".hamburger-menu-section");
 
 let isActiveHumberMenu = false;
+let isActiveUnderMenu = false;
 
 humberIcon.addEventListener("click", () => {
   if (!isActiveHumberMenu) {
@@ -227,18 +236,10 @@ humberIcon.addEventListener("click", () => {
     lastSpan.classList.remove("rotate-last-span");
     isActiveHumberMenu = false;
     body.classList.remove("body-overflow");
+    gameUnderMenu.classList.remove("fit-content-height");
+    isActiveUnderMenu = false;
   }
 });
-
-const gameMenuInHumburgerMenuBtn = document.querySelector(
-  ".open-modal-in-header-mobile-size p",
-);
-const gameMenuInHumburgerMenuBtnArrow = document.querySelector(
-  ".open-modal-in-header-mobile-size p > i",
-);
-const gameUnderMenu = document.querySelector(".link-box");
-
-let isActiveUnderMenu = false;
 
 gameMenuInHumburgerMenuBtn.addEventListener("click", () => {
   if (!isActiveUnderMenu) {
