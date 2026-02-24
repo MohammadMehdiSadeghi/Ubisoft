@@ -628,6 +628,16 @@ header nav .icon-in-header .bxs-user {
     display: none;
   }
 }
+@media (max-width: 450px) {
+  .change-slider-by-box {
+    margin-top: 100px !important;
+    gap: 8px;
+  }
+  .change-slider-by-box .change-box {
+    width: 120px !important;
+    padding: 5px !important;
+  }
+}
 .first-game-slider {
   width: 65%;
   height: fit-content;
