@@ -17,11 +17,12 @@ body {
   overflow-x: hidden !important;
 }
 
-div,
-section {
-  overflow-x: auto !important;
+@media (max-width: 768px) {
+  div,
+  section {
+    overflow-x: auto !important;
+  }
 }
-
 @font-face {
   font-family: "UbisoftFont-bold";
   src: url(/assets/fonts/Ubisoft\ Sans\ Bold.ttf);
