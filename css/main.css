@@ -130,7 +130,8 @@ header nav ul li:hover {
   background-color: white;
   color: black;
 }
-header nav ul li:first-child:hover {
+header nav ul li:first-child:hover,
+header nav ul li:nth-child(2) {
   background-color: black;
   color: white;
   cursor: pointer;
