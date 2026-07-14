@@ -29,8 +29,7 @@ header {
         background-color: white;
         color: black;
       }
-      li:first-child:hover,
-      li:nth-child(2) {
+      li:first-child:hover {
         background-color: black;
         color: white;
         cursor: pointer;
